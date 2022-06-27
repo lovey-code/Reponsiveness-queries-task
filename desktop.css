@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+/*banner styling*/
+.container {
+  background:hsl(0, 100%, 74%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.color-overlay{
+  background:hsl(0, 100%, 74%);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height:auto; 
+  }
+  .banner-text {
+    position: absolute;
+    top: 25%;
+    color: white ;
+    padding: 20px;
+    font-family: [Poppins] ;
+    z-index: 1;
+    justify-content: left;
+    align-items: left;
+  }
+  .banner-text h2 {
+    font-size: 24px;
+    text-transform: none;
+    font-weight:bold ;
+    margin-bottom: 5px;
+     
+  }
